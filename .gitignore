@@ -1,0 +1,16 @@
+# Hidden files
+.*
+
+# Backup files
+*.bak*
+*#*
+*~
+
+# Pre-compiled python files
+*.pyc
+
+# Build directory name
+build
+
+# Downloaded datasets
+data/dataset
