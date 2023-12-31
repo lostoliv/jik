@@ -35,5 +35,5 @@ if [ ${MODE} = "debug" ] ; then
 else
   ${CMAKE} -DCMAKE_BUILD_TYPE=Release ..
 fi
-${MAKE}
+${MAKE} -j
 popd
